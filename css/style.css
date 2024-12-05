@@ -1,22 +1,19 @@
-body{
-    margin:0;
-}
-.images{
-    padding: 50px 0;
-}
-.container{
-    margin:0 auto;
-    overflow: hidden;
-    width: 960px;
-}
-
-.img_item{
-    box-sizing: border-box;
-    float: left;
-    width:25%;
-    padding: 0 3px;
+@font-face {
+    font-family:poppins-medium ;
+    src: url(../fonts/poppins-medium.ttf);
 } 
-
-.img_item img{
+.container{
+    width: 960px;
+    margin-top: 50px;
+}
+.text{
+    font-family:poppins-medium;
+    font-weight: 500;
+    width: 80%;
+}
+.image{
+  width: 80%;
+} 
+.image img{
     width: 100%;
 }
